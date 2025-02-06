@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                // Set the JavaScript version (ES6, ES2020, etc.)
+    "module": "CommonJS",           // Use CommonJS for Node.js compatibility
+    "rootDir": "./src",             // Source directory
+    "outDir": "./dist",             // Compiled JavaScript output directory
+    "strict": true,                 // Enable strict type checking
+    "esModuleInterop": true,        // Allow import/export compatibility
+    "forceConsistentCasingInFileNames": true, // Ensure file name casing consistency
+    "skipLibCheck": true            // Skip type checking for dependencies
+  },
+  "include": ["src"],               // Include files in src folder
+  "exclude": ["node_modules", "dist"]  // Exclude node_modules and dist
+}
